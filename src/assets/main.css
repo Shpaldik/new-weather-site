@@ -1,13 +1,15 @@
 
 
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-  background-image: url(/public/1679630358_bogatyr-club-p-fon-dlya-prezentatsii-pogoda-instagram-13.png);
+body {
+  background-image: url('/public/1679630358_bogatyr-club-p-fon-dlya-prezentatsii-pogoda-instagram-13.png');
+  height: 100vh; /* Высота равная высоте экрана */
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: Arial, sans-serif; /* Пример шрифта */
 }
-

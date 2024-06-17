@@ -80,6 +80,7 @@ export default {
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
+  margin-top: 20px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -143,12 +144,19 @@ button:not(:disabled):hover {
   .container {
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10px;
   }
 
   .weather-box, .input-box {
     width: 45%;
     max-width: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .weather-box, .input-box {
+    width: 30%;
+    max-width: none;
+    margin-top: ;
   }
 }
 </style>
