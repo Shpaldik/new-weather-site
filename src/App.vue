@@ -67,7 +67,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 180px;
   padding: 10px;
   color: #333;
   font-family: Arial, sans-serif;
