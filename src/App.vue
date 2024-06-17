@@ -84,6 +84,7 @@ export default {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
 .weather-box h1, .input-box h1 {
   margin-bottom: 20px;
   font-size: 24px;
@@ -106,7 +107,8 @@ export default {
 }
 
 input[type="text"] {
-  padding: 10px;
+  padding: 10px 0px;
+  padding-left: 7px;
   border: 2px solid #ccc;
   border-radius: 5px;
   width: 100%;
